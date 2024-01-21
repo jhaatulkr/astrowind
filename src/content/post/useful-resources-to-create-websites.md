@@ -9,54 +9,246 @@ tags:
   - resources
 ---
 
-## Magna nunc senectus torquent per fusce sapien ligula tempus cra
+# Foundations of Data Science
 
-Lorem ipsum dolor sit amet consectetur adipiscing, elit fusce imperdiet gravida velit massa, ligula aenean suscipit sociis lacinia. Sapien scelerisque rutrum sem accumsan orci imperdiet aliquam inceptos aliquet tempus ornare, netus nostra nam nunc platea pulvinar urna et suscipit pellentesque, aenean congue sociis non tellus quis proin etiam venenatis pretium. Nibh senectus lacinia volutpat nostra taciti ac posuere, dictum ultricies dictumst luctus in vehicula, mus molestie venenatis penatibus ridiculus elementum. Phasellus sollicitudin dignissim parturient tempor cubilia erat massa eleifend dapibus, condimentum cras tortor eu sem dictumst non. Faucibus neque est malesuada nostra luctus maecenas at condimentum, arcu eros vulputate curabitur blandit mollis volutpat, lectus leo dictumst duis semper tempor hendrerit. Egestas scelerisque fusce torquent cubilia consequat conubia lacus et mollis, condimentum taciti elementum sapien risus vulputate est.
+## Learning Objectives :
 
-Tristique eleifend enim praesent mollis sem leo, molestie dictum penatibus sodales consequat ligula nulla, platea feugiat aptent sapien turpis. Mollis mus ac taciti maecenas pretium hendrerit proin accumsan, mattis dictumst netus nunc facilisi morbi cursus euismod quis, a commodo nulla integer varius enim vehicula. Consequat mi risus vulputate ullamcorper sociosqu pretium molestie cursus, parturient viverra non tempor tellus convallis vitae eleifend mus, bibendum pellentesque imperdiet vivamus nunc phasellus iaculis. Volutpat est ac dictumst eleifend maecenas torquent quam hac, mollis aliquam mattis euismod ornare risus fringilla proin nisi, sem fermentum primis ultrices varius etiam id. Posuere nunc mus curabitur condimentum lobortis euismod donec tincidunt ridiculus, tristique senectus cum taciti quam blandit leo malesuada, sociis nullam cras litora sem laoreet sed nec.
 
-## Magna lacus tortor luctus platea co
+In this explainable Article, we are going to discuss about Data Science, the tasks associated with it and how it differs from Machine Learning, Deep Learning etc.  which is an important distinction to understand.
 
-- Luctus molestie taciti aliquam dictumst imperdiet, donec torquent nisi.
+### What is Data Science?
 
-- Montes cursus habitant risus platea senectus, lectus sagittis mi.
+!!! info ""
 
-- Eleifend facilisi quam ultricies, accumsan aliquet euismod velit, sem tortor.
+    Data Science is the science of collecting, storing, processing, describing and modelling data.
 
-- Senectus nisl potenti congue sociosqu at, porttitor habitant vivamus.
 
-Nostra dictum porta consequat quisque diam nisl iaculis velit varius, placerat curabitur risus commodo condimentum morbi eros dictumst phasellus, tempor duis libero ultrices est rhoncus mattis nam. Quisque lectus massa lobortis nulla enim, praesent eu ut elementum. Felis placerat nibh donec erat platea rutrum taciti cursus, elementum metus semper feugiat risus tellus nulla, aliquam hendrerit faucibus inceptos commodo justo porta.
 
-Cursus imperdiet montes natoque potenti suscipit facilisi porta mollis posuere consequat, aliquam turpis tortor libero viverra rhoncus accumsan inceptos blandit convallis diam, penatibus ut pretium in duis leo auctor proin quisque. Sollicitudin inceptos quam molestie sociis habitasse class sapien vivamus facilisis, consequat ante vehicula velit tempor cum rutrum magnis, eget semper quisque turpis pretium praesent per faucibus. Ullamcorper blandit taciti primis sed pharetra inceptos duis, eu nisi ac fringilla tellus accumsan iaculis, morbi integer at purus hac est. Elementum hac lacus per in posuere erat ad, egestas dapibus malesuada suscipit nunc interdum, mi risus auctor pretium lectus massa. Condimentum nullam molestie tincidunt sodales luctus parturient est et congue hendrerit vel vulputate iaculis, curabitur sollicitudin quisque magna nostra nisl nam massa viverra donec neque class.
+### Why are there multiple confusing definitions?
 
-Euismod tempus potenti interdum fusce placerat habitant, taciti turpis faucibus curabitur tempor felis porta, sed aenean mi arcu magnis. Pellentesque tincidunt aptent eget nisi convallis lobortis sapien, habitasse sollicitudin proin vehicula ridiculus duis congue, himenaeos lectus vitae nulla taciti ante. Enim commodo non taciti ultricies donec iaculis aliquet interdum, dictumst a pulvinar lacus cursus fames praesent cras ad, rutrum nostra dis accumsan primis euismod sagittis. Eu habitant euismod mattis at congue fusce ad commodo litora himenaeos aenean, porta lobortis suscipit pulvinar magna facilisi nullam ante non senectus, urna volutpat sodales vitae varius lectus tincidunt montes rutrum vulputate. Enim cum habitant morbi maecenas nisl imperdiet a egestas velit, gravida laoreet hendrerit rutrum molestie fames sapien euismod turpis metus, faucibus class sed primis leo nam malesuada fermentum.
+!!! info ""
 
-Semper etiam tellus a risus lobortis dictumst sem massa eros, eget curae gravida accumsan hac parturient nulla fringilla convallis, condimentum torquent placerat mauris conubia augue mattis leo. Dictum tincidunt quis risus volutpat netus mi suscipit parturient suspendisse vestibulum, ad lacus dictumst luctus nec fusce ultricies vivamus. Dui sociis nulla suscipit gravida mi arcu netus, vitae mus donec dapibus nascetur id ante urna, egestas viverra auctor sodales litora enim rutrum, sapien molestie imperdiet ut massa elementum. Aptent ante risus erat malesuada nec porta, ligula nascetur dictum nunc turpis natoque, tristique conubia netus arcu a.
+    Since it is a assortment(collection) of several tasks, often times there is no clear boundary, as to if we perform all these or some of it, then we can call ourself a Data Scientist. most of the times, attention on tasks depends on application/organization, for example  if there are abundance of data in the organization, then there won't be much focus on data collection, rather processing it will be in more focus. Thus it all depends on the organisation and the task we are performing.
 
-Nam scelerisque ridiculus suspendisse viverra conubia et fermentum nascetur turpis quisque, vestibulum cubilia curae per feugiat lectus rhoncus suscipit neque. Urna habitasse mus hac fringilla rutrum sodales, nullam aliquam porttitor quis vehicula arcu class, in felis placerat mattis vestibulum habitant, mauris eros dapibus penatibus viverra. Senectus tristique molestie scelerisque quisque mus augue facilisi massa, ac viverra dapibus vehicula nostra vel nam, posuere montes parturient auctor eu ultrices natoque. Quam fringilla volutpat morbi in per aliquet laoreet a maecenas, lacus velit mauris purus ultricies sociosqu pulvinar netus sodales, convallis placerat turpis tellus nullam libero leo aptent. Praesent lacus ultricies per ligula taciti aenean conubia parturient, feugiat sodales viverra urna cubilia etiam nibh curabitur congue, tristique nisl at elementum dis natoque commodo.
 
-Sagittis erat velit integer cursus congue viverra, conubia himenaeos egestas ultricies praesent, hac litora mattis non venenatis. Duis libero morbi curae potenti litora vitae sed etiam consequat magna ultricies, magnis fermentum vehicula feugiat tortor ad quis orci rhoncus per porta, ante mi gravida dis nostra tempor lobortis aenean convallis molestie. Ligula fusce blandit ac accumsan magnis rutrum nostra velit maecenas, netus lobortis himenaeos purus justo sapien posuere libero, cum etiam urna mi ultrices est sociis tortor. Neque inceptos quisque vestibulum tempor phasellus id himenaeos magna suspendisse a in nunc cursus, morbi dignissim ornare non auctor massa iaculis mus nec elementum ultricies maecenas. Scelerisque maecenas ultrices integer gravida dis cursus, sed at semper libero iaculis varius, justo augue nec tincidunt suspendisse.
 
-Rutrum augue natoque felis non vestibulum nam duis, quam praesent taciti himenaeos class vel dis rhoncus, dapibus pulvinar etiam ridiculus curae nibh blandit, scelerisque cursus nostra pretium suspendisse vehicula. Etiam sem metus eleifend suscipit felis suspendisse ut, velit fames habitant semper placerat fusce cras, nunc venenatis platea aenean euismod libero. In eu eget pellentesque libero egestas suspendisse quis tristique torquent nulla, magnis dis malesuada purus quam platea aliquet tortor odio. Accumsan nostra augue lobortis elementum justo sociosqu posuere aptent est, nisl metus conubia tellus sollicitudin lacus inceptos. Morbi mauris aenean malesuada arcu fusce libero venenatis commodo iaculis litora dis, erat parturient class sed facilisi mus a nec dictum.
 
-Senectus platea dapibus volutpat dictum pharetra cursus netus cras, arcu sociis ornare potenti porttitor tempus sollicitudin, ullamcorper duis nam convallis sapien pretium conubia. Mi metus vivamus cum id semper fringilla senectus scelerisque pretium placerat sociis rhoncus pulvinar porttitor accumsan, curae ligula fermentum mus hendrerit ridiculus condimentum per suscipit rutrum sociosqu odio pellentesque suspendisse. Dui massa nulla suscipit duis metus mollis pellentesque, scelerisque posuere interdum ligula cum dignissim sed, placerat ante ultrices mi netus augue. Eu porttitor malesuada diam morbi torquent egestas magnis tempus metus imperdiet nisl, ad sociis lectus neque mauris gravida habitant primis lobortis. Phasellus mattis nulla fames parturient pharetra pretium egestas, diam rhoncus placerat lectus maecenas dictumst sed cum, justo non ac volutpat morbi enim.
+### What are the Tasks Associated with Data Science?
 
-Justo fringilla morbi netus habitasse varius primis eu magna, tristique accumsan mus enim lectus cubilia convallis auctor, nunc imperdiet erat mollis rutrum vel turpis. Justo purus laoreet eros turpis interdum et ridiculus torquent integer nunc, himenaeos eu tellus proin scelerisque tincidunt congue posuere ultricies vestibulum auctor, aliquet semper varius placerat imperdiet non nisl cubilia fermentum. Feugiat nisl himenaeos cum metus mi est ac, euismod elementum velit tempus dictum mauris, bibendum faucibus cubilia phasellus nulla ornare. Etiam justo venenatis varius laoreet sociis montes dignissim, elementum ligula malesuada euismod praesent magnis auctor, eleifend class egestas a vestibulum blandit. Scelerisque potenti facilisis torquent mollis nisi felis et sed, aptent tortor platea non quisque nec accumsan inceptos, velit molestie nunc enim cubilia egestas per.
 
-Ultrices morbi et potenti eros aenean condimentum magnis est felis porta, dictumst taciti inceptos etiam ultricies cubilia hac torquent tempor vulputate, sodales erat semper vestibulum dignissim sociis viverra suscipit sagittis. Justo non auctor penatibus iaculis sed in volutpat pretium feugiat lectus rutrum, curabitur sociosqu sapien semper a laoreet augue primis fringilla dui. Fringilla iaculis blandit feugiat euismod congue morbi erat eros, mi dis egestas facilisi volutpat risus cras porta, orci vivamus turpis conubia est commodo torquent. Lectus euismod maecenas potenti in ac natoque sed ullamcorper ridiculus, diam fringilla condimentum eget convallis hendrerit varius pellentesque. Feugiat cras nullam tristique leo nisl dignissim lacinia aenean vivamus potenti consequat, vulputate curabitur sed risus mus suspendisse litora sollicitudin tempor.
+!!! note "Collect"
 
-Egestas hac arcu dapibus placerat proin aptent a pellentesque posuere, in condimentum fames facilisi maecenas semper nisl mus, sodales donec elementum praesent enim ac dictum ridiculus. Justo in nibh luctus vitae etiam nisl ac quisque fringilla, habitasse sociosqu curae inceptos semper ut mi hac, congue volutpat himenaeos sed augue morbi tellus nec. Congue libero posuere varius eleifend tristique nascetur integer ullamcorper, est leo vitae mi erat enim augue urna magnis, elementum ultricies pulvinar blandit arcu malesuada duis. Cubilia nulla vel et integer sed pellentesque gravida felis pulvinar mollis ultricies mi, montes suspendisse vestibulum aliquet dui in magna nunc ridiculus aliquam elementum. Justo erat montes enim felis eu sed vivamus faucibus imperdiet ac luctus vulputate, cursus accumsan blandit et mus sodales conubia cubilia phasellus leo.
+    
 
-Velit in felis penatibus semper laoreet libero tristique condimentum sem montes suscipit, morbi habitant gravida tellus quisque neque torquent lobortis interdum. Ridiculus sollicitudin suscipit semper quam eleifend at, neque tincidunt magnis penatibus dui orci, praesent vulputate himenaeos feugiat vel. Habitasse senectus a sodales dapibus nulla auctor sagittis nullam molestie, imperdiet volutpat quam odio facilisis nostra magnis dictumst, sociis cum erat facilisi dignissim urna lacus magna. Primis porttitor nullam quis vestibulum mi dictumst magna dapibus taciti magnis inceptos fames, purus etiam auctor metus bibendum felis accumsan id aliquet suscipit imperdiet. Pellentesque sem velit nulla consequat vehicula cubilia curabitur, platea curae natoque tristique nullam litora, nascetur imperdiet habitant tincidunt suspendisse sociis.
+### What is involved in data collections?
 
-Platea cum auctor eget consequat elementum lacinia ad aliquet orci, imperdiet nibh penatibus ac dictum rutrum mollis ante cursus, volutpat scelerisque velit ornare in vivamus pharetra blandit. Cum mattis interdum in diam purus sapien lacinia gravida, semper montes vestibulum rhoncus auctor morbi dictum. Mus semper erat mollis taciti sapien ultrices accumsan ante magna eros at commodo, malesuada diam nullam massa curabitur lobortis felis interdum nisi duis pellentesque. Accumsan faucibus tristique augue enim hac ante feugiat, porttitor phasellus condimentum nulla maecenas dignissim at platea, facilisis nam donec primis habitasse ac. Nec convallis ridiculus potenti primis faucibus erat eget metus mollis, luctus ac fusce condimentum orci suscipit volutpat malesuada mi, velit feugiat pharetra sem turpis est accumsan porta, ligula torquent lacus tristique a senectus tortor dignissim.
+Data Collection, mainly depends on
 
-Pharetra eleifend vivamus potenti congue proin himenaeos, fusce mi venenatis natoque montes, suscipit commodo porta magnis mattis. Et lobortis mollis libero quis himenaeos felis dis porta, donec iaculis mattis cursus accumsan pulvinar mus etiam, habitasse leo taciti vitae suscipit suspendisse bibendum. Sodales at ante dictumst nostra est risus senectus semper morbi facilisis neque tempus, venenatis penatibus fusce mattis phasellus velit diam iaculis hac tortor class, orci ridiculus varius dis odio cras rutrum porttitor facilisi massa parturient. Augue facilisi nam proin at elementum massa, tellus vestibulum mattis tortor porta, cubilia sodales orci congue vel. Rhoncus nec quam iaculis sapien risus suspendisse dictum tincidunt, vivamus lobortis blandit metus ullamcorper torquent.
+	i. depends on the question, a data scientist is trying to answer.
 
-Ante fermentum hac tincidunt nam sodales vestibulum pellentesque ut nulla habitasse, ornare diam facilisis aptent facilisi penatibus arcu congue lacus, lectus fringilla per primis dapibus eu imperdiet erat dictumst. Pulvinar eu ad mauris nulla ac sed nisl ullamcorper natoque etiam fames, platea aliquam dis netus odio dignissim tincidunt quam blandit laoreet, at mollis ridiculus molestie lacus metus nullam suspendisse nibh duis. Suspendisse congue vestibulum fringilla ridiculus tristique sagittis sociosqu integer, volutpat lacinia pulvinar felis aliquam pharetra faucibus dictumst ad, fusce dignissim cursus mauris eget nostra lectus. Lacinia egestas iaculis scelerisque odio gravida ullamcorper, at arcu ligula ornare parturient phasellus laoreet, augue convallis platea tortor aenean.
+	ii. depends on the environment in which the data scientist is working
 
-Interdum fames lobortis sollicitudin aliquet mus aptent netus, penatibus consequat pulvinar velit enim curae accumsan, maecenas litora mi rutrum sagittis tincidunt. Lacinia malesuada id netus suscipit sapien sociosqu orci habitasse turpis, feugiat donec placerat sed quam hendrerit pellentesque. Erat accumsan ligula id sapien turpis mus nulla lobortis consequat nec, urna habitasse ultrices aliquet vulputate est suspendisse gravida senectus odio, vehicula fusce proin in sed tempor vitae convallis molestie. Nascetur semper feugiat velit hendrerit lacinia nunc, risus quis congue nullam himenaeos commodo porttitor, natoque facilisi ad maecenas faucibus. Dictum id sodales interdum accumsan habitant natoque class parturient mi venenatis aenean, est nam tortor donec lobortis non vehicula magnis lacinia. Feugiat vitae morbi litora vehicula in a, nam ad ultrices auctor sollicitudin, ullamcorper fringilla hendrerit placerat faucibus.
+for example a Data Scientist is working at an internet company, in this case most probably, the data would be present in more or less structured way i.e data exists within the organisation in a structured way.
 
-Nulla nisi ac placerat duis semper mus cursus interdum netus vestibulum, tortor praesent proin nec rhoncus magnis commodo blandit himenaeos purus, volutpat id montes scelerisque suspendisse risus nisl erat dui. Senectus et habitant dis nulla velit faucibus venenatis sapien, dapibus etiam metus eget magnis feugiat tristique. Augue montes elementum pulvinar mollis pellentesque diam cursus tristique vel cubilia erat mus, congue curae sagittis dui quis fusce tortor consequat taciti natoque. Praesent montes erat feugiat sed euismod condimentum potenti malesuada nec, mi vitae suspendisse aptent senectus eleifend faucibus pulvinar scelerisque, augue ornare accumsan pretium magna eu iaculis metus. Suscipit accumsan massa vitae platea ad duis rhoncus fermentum vulputate, interdum pretium metus per aptent enim in facilisis eros, sollicitudin consequat iaculis erat dictumst quisque leo sociis.
+Now, take an example of a Movie production house, which wants to know what people are saying about a new movie, mostly in this case we need to crawl, scrape the data from social media/ reviews sites etc. i.e data is available, but not with the organisation, it needs to be gathered from sources .
 
-Tempor etiam potenti auctor est ut habitant ac nisl ultrices pulvinar, sem primis tempus lacus aliquam consequat fringilla tristique. Consequat cum rhoncus massa sociis blandit rutrum nisi quam cras vitae fusce, sociosqu erat penatibus convallis fames accumsan eros himenaeos pulvinar sagittis, habitasse primis integer odio nascetur in montes faucibus semper potenti. Diam aliquam fringilla risus phasellus habitasse aenean eu erat, netus nulla pellentesque ut morbi torquent pharetra semper, sed etiam primis in conubia hendrerit velit. Ornare magna dictum purus metus sociosqu pulvinar sed, quam faucibus posuere pretium senectus interdum. Ornare sodales in litora nascetur sociosqu senectus auctor, cras arcu fusce ac inceptos integer tempor aliquam, tristique imperdiet metus hendrerit erat eleifend.
+Let's take one more case, in which a data scientist is working with Doctors, and they need to know how effective a new drug is. In this case, initially we don't have data available at all and we need to design experiments to create these. This is one of the places where we need the knowledge of Statistics.
+
+!!! note "Store"
+
+<b>Transactional & Operational Data (Structured Data) :fontawesome-solid-database::</b>
+
+Traditionally most of the data was Transactional and operational data, i.e records of transactions that is happening, or records of things that happen daily to run the normal operations of the business.
+eg. invoices, insurance claims. These are generally Structured Data, where a Relational database is used. These are generally optimised for SQL queries.
+
+<b>Data from multiple databases :simple-databricks: :</b>
+
+Let's take an example of a big telecommunication company, which provides mobile, DTH Cable, Broadband etc services and they need to integrate data into a common repository, normally for support analytics etc.
+for such a scenario a Data Warehouse which not only collects the data from multiple stores but also is optimised for Analytics (think aggregation of millions of rows for analytics.) is used. These are optimised for Analysis.
+
+
+<b>Unstructured Data :material-data-matrix: :</b>
+
+With the advent of smartphones, IOT devices etc. a large volume of different types of data is being generated ie. data is being generated with high volume, high variety and high velocity. This is termed as an era of {== __Big Data__ ==}.
+
+For these type of Data we use a __Data Lake__ (eg. Hadoop). 
+Which is used to store Big Data (collection of large amount of structured / unstructured, within or outside of organisation.) These Uncurated data ( structured/unstructured from variety of places) are stored here without them being useful now, with the thinking that they might be used in the future.
+
+If data processing is to be performed on Big Data with millions of data items then performance could be a factor, in such a case Distributed Processing becomes a choice i.e Divide the data into chunks, distribute the processing to a clusters of computers/servers  and then aggregate the result back. which Hadoop (Map Reduce) helps to do.
+
+__In summary :__
+
+|  |  |
+|---|---|
+|  __Relational Databases__ |  Where we store structured data |
+|   | These are optimised for SQL queries.  |
+|__Data Warehouses__   | Structured Data  |
+|   | Curated data  |
+|   | Optimised for analysis  |
+| __Data Lake__  | Structured and/or Unstructured data and not curated (dumped with the hope of being useful in future)  |
+|   |   |
+
+!!! note "Process"
+
+
+After the Data is collected and store, it needs to be processed to be useful for analysis or modelling.
+
+<b> Data Wrangling or Data Munging :</b>
+
+Let's take up an example of a HR dept. which stores data about all the employees and these are being sent to the Publishing dept. which takes and stores only certain relevant details about people who are authors.
+
+    So, this Selecting and converting of data to useful form is called as Data Wrangling/Munging.
+    We typically perform extract, transform and load on these data.
+
+<b> Data Cleaning :</b>
+
+The process of Data cleaning is an imp. aspect of Data Science, below steps describe the general process.
+
+🟣 	Fill missing Values (eg. substitute missing value with the mean of the data etc.)
+
+🟣 	Standardise keyword tags (eg. remove duplicate author details etc.)
+
+🟣 	correct spelling errors.
+
+🟣 	identify and remove outliers.
+and other steps ....
+
+<b> Data Scaling, normalising and Standardising : </b>
+
+Generally the data collected could have different scale for some of the data points and across features. To resolve this issue, we take in account below methods.
+
+!!! example ""
+
+
+	👾	__Scale__ : eg. kilometers to miles, dollars to rupees.
+    
+	👾	__Normalise__ : zero mean, unit variance
+
+	👾	__Standardise__ : all values between 0 and 1.
+
+We will discuss about these in detail in subsequent chapters.
+
+!!! note "Describe"
+
+Describing Data generally involves two steps, i.e visualising and summarising Data
+
+
+<b>Visualising Data :</b>
+
+A lot of the time, we would want to have a quick analysis of our records and to see if we could find any interesting facts that could help us in any business decision.
+This is where we plot graphs etc to visualise the stored data and come up with findings.
+
+
+<b> Summarising Data :</b>
+
+ After we have visualized data, generally we would want to know answers to some queries. eg. what is the typical sale of Movie rentals daily? We could use mean, median or mode or any other statistical parameter for this or What is the typical variation of the TVs sold, in which case std. deviations, variance etc. could be helpful.
+This Visualizing and Summarizing Data deals with Descriptive Statistics and the other part is Inferential statistics.
+
+!!! note "Model"
+  
+
+<b>Statistical Modelling :</b>
+
+Coming up with models of data and then making certain inference on top of the model is an imp. part of Data Science. A lot of the physical/Biological quantity, they follow certain distribution. let's say normal distribution. for eg. blood sugar level, cholesterol level etc.
+
+So if we take a large enough quantity and they tend to follow normal distribution then we can make a lot of inferences about it due to the fact these distribution are studied a lot and holds certain properties that can be used to infer the data.
+
+To make robust conclusion on the data, we need to understand the underlying model and relations in data. In general Statistical Modelling are used for below objectives. 
+!!! example "" 
+    👾 Modelling underlying data Distribution.
+
+    👾 Modelling underlying relations in data.
+
+    👾 Formulate and test hypothesis.
+
+    👾 Give Statistical guarantee.
+
+!!! note ""
+    In statistical Modelling, the models considered are simple which is because in most of the cases, the data is not high-dimensional. 
+
+<b>Algorithmic Modelling : </b>
+
+In statistical modelling we assumed simple models, that allowed robust statistical analysis and give statistical gurantees (like p value, goodness of fit-test etc).
+
+But in many real world cases the relationship is much more complex then a linear model.
+
+In such a case we use Algorithmic Modelling. that's where __Machine Learning__ and __Deep Learning__ comes in picture, where they provide a family of many complex functions for modelling the data i.e to
+Estimate function f using data, optimisation techniques etc.
+
+Focus on prediction correctly is given more importance (not much on the underlying data) as compared to statistical modelling.
+
+In applications where we don't care much about the underlying relationship b/w data, i.e why certain thing are happening, we tend to go for algorithmic modelling and vice versa.
+</br>
+</br> 
+
+
+| Statistical Modelling      | 	Algorithmic Modelling                          |
+| ----------- | ------------------------------------ |
+| Simple, Intuitive Models       | Complex, Flexible Models  |
+| More Suited for Low-Dim. data       | Can work with High-Dim Data|
+| Robust statistical analysis is possible    | 	Not suitable for robust statistical analysis |
+| Focus on Interpretability    | 		Focus on Prediction |
+| Data Lean Model, more of statistics    | 		Data Hungry Models, more of ML, DL |
+| eg. Linear Regression, Logistic Regression, Linear Discriminant Analysis etc    | 	eg. Linear Regression, Logistic Regression, Linear Discriminant Analysis, Decision Tree, KNN, SVMs, Naive Bayes, Neural Network etc. |
+
+
+!!! note ""
+    When we have large amount of high dimensional data and we want to learn very complex relationship between the output and input we use a special class of complex ML models and algorithms collectively referred to as Deep Learning .
+ 
+!!! note " "
+    Thus Machine Learning, Deep Learning is just a part of the Algorithmic modeling part of Data Science.
+
+
+### __Difference Between Artificial Intelligence (AI), Machine Learning, Deep Learning and Data Science?__
+
+
+
+!!! abstract " "
+    In general AI is defined as building systems or agents that demonstrate "intelligence".
+
+
+### __Still there is a confusion about how it relates to DS, ML DL etc and how different it is?__
+
+Let's see at the tasks that constitute AI? and what of these could relate to Data Science.
+Problem Solving :
+
+ Let's take a example, Our agent has to traverse through a maze, then in this case , our first priority is to find efficient search algos (eg. BFS, DFS, A* etc.) and which is not data driven (i.e no data, No modelling).
+ 
+ So we can say that problem solving is a part of artificial intelligence that encompasses a number of techniques such as a tree, B-tree, heuristic algorithms to solve a problem.
+
+We can also say that a problem-solving agent is a result-driven agent and always focuses on satisfying the goals.
+
+<b>🤖 Knowledge Representation :</b>
+
+Now let's say the maze has certain complex rules, like if there is green ball in the cell then, the right cell will have more power and similarly if there is red ball in the cell, then the right cell will have pit in it.
+
+In this case also we don't need data, but we need to use propositional and first order logic to represent this knowledge of rule.
+
+<b>🤖 Reasoning :</b>
+
+Once the Knowledge Representation is completed, next steps is to apply reasoning to navigate through and make a Decision and is termed as 🦧 __Decision Making__.
+
+<b>🤖 Expert System : </b>
+
+A lot of real world applications uses rule based system specifically designed by experts which are called __Expert systems__.
+
+These rules are encoded using __Knowledge representation__, and the program will perform __reasoning__ and execute these rules to complete the task.
+
+But in lot of other cases expert systems can't be used as rules may be too complex, inexpressible, rules maybe unknown etc. 
+
+The Alternative approach is to learn from large amounts of data i.e use __Algorithmic Modelling__ (ML, DL) and predict (make decisions) 
+This 💥 Data-Driven part of AI, i.e training agents to take decisions is what intersects with __Data Science__.
+
+<b>🤖 __Perception, Communication and Actuation:__ </b>
+
+Next part in AI process, is __Communication__, i.e an agent should be able to communicate to humans, and for this Natural language understanding and Natural Language Generation is imp. which can collectively be called __Natural Language Processing(NLP)__ and modern NLP is completely data driven (i.e mainly uses ML, DL)
+
+Similarly __Perception__, is the ability to see and listen  (__Computer vision__, __Speech recognition__) which is also being done using DL,
+
+and at last __Actuation__ is mainly related to actuation in robotics . All these i.e NLP, Vision, Speech Recognition, Actuations etc are data driven and mostly uses ML, DL.
+
+Thus since Decision Making and Perception, Communication, Actuation are now mostly Data Driven, these are the steps where __AI intersects with Data Science and ML, DL__.
+
+Share this Explainable Article with Friends and colleagues and let us know in the comments section, how it helped you land entry level data science job. 
+
+In the Next Explainable Article, we will discuss about the Process involved in a Data Science project.

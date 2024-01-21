@@ -5,15 +5,16 @@ import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
-import Steps from '~/components/widgets/Steps.astro';
-import Content from '~/components/widgets/Content.astro';
+// import Steps from '~/components/widgets/Steps.astro';
+// import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-import Stats from '~/components/widgets/Stats.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
+// import Stats from '~/components/widgets/Stats.astro';
+// import CallToAction from '~/components/widgets/CallToAction.astro';
+
 
 const metadata = {
-  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
+  title: 'Explainable Academy : The ultimate resource for Learning Machine Learning and Deep Learning',
   ignoreTitleTemplate: true,
 };
 ---
@@ -25,30 +26,39 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
+        text: 'Foundation',
+        href: '#',
+        target: '_blank'
+        // icon: 'tabler:download',
       },
-      { text: 'Learn more', href: '#features' },
+      { text: 'Roadmap',
+        href: '#features' 
+      },
     ]}
-    image={{ src: '~/assets/images/hero.png', alt: 'AstroWind Hero Image' }}
+    image={{ src: '~/assets/images/hero.png', alt: 'Explainable Hero Image' }}
   >
     <Fragment slot="title">
-      Free template for <span class="hidden xl:inline">creating websites with</span>
-      <span class="text-accent dark:text-white highlight"> Astro 4.0</span> + Tailwind CSS
+      Explore <span class="hidden xl:inline"> </span>
+      <span class="text-accent dark:text-white highlight"> Explainable </span> Articles 
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 4.0
-        + Tailwind CSS.</span
+        Curious about machines that learn? Dive into our ML tutorials! Hands-on projects, clear explanations, and a supportive community await. Unleash the magic of data! Follow our journey, build yours. Start today</span
       >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
-       Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages
-      & Blogs.
     </Fragment>
   </Hero>
+
+
+<Hero
+  actions={[
+
+    { text: 'Roadmap',
+      href: '#features' 
+    }
+  ]}
+>
+</Hero>
 
   <!-- Note Widget ******************* -->
 
@@ -59,43 +69,43 @@ const metadata = {
   <Features
     id="features"
     tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022."
+    title="What you get with Explainable Academy"
+    subtitle="."
     items={[
       {
-        title: 'Astro + Tailwind CSS Integration',
+        title: 'Beyond the Basics :',
         description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
+          'Delve into cutting-edge topics in supervised learning, unsupervised learning, Generative models, LLMs etc .',
         icon: 'tabler:brand-tailwind',
       },
       {
-        title: 'Ready-to-use Components',
+        title: 'Textual Treasures : Unlocking the Power of Natural Language Processing',
         description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+          'Explore the world of text analysis, sentiment detection and chatbot development through NLP techniques',
         icon: 'tabler:components',
       },
       {
-        title: 'Best Practices',
+        title: 'Make Predictions easy',
         description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
+          'Learn how to analyse and predict temporal data patterns, fom financial markets to weather forcasting.',
         icon: 'tabler:list-check',
       },
       {
-        title: 'Excellent Page Speed',
+        title: 'From Zero to Hero : Master Machine Learning',
         description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
+          'A beginner-friendly guide to navigating the ML landscape, covering foundational concepts and practical tools.',
         icon: 'tabler:rocket',
       },
       {
-        title: 'Search Engine Optimization (SEO)',
+        title: 'Computer Vision : Image Recognition for Everyone',
         description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
+          "Demysify the magic behind image recognition algorithm and build your own projects.",
         icon: 'tabler:arrows-right-left',
       },
       {
-        title: 'Open to new ideas and contributions',
+        title: 'Unleash the Power of Python',
         description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
+          'Get hands-on with building and training neural networks using the popular framework.',
         icon: 'tabler:bulb',
       },
     ]}
@@ -103,13 +113,13 @@ const metadata = {
 
   <!-- Content Widget **************** -->
 
-  <Content
+  <!-- <Content
     isReversed
     tagline="Inside template"
-    title="AstroWind's Blueprint: Fun Meets Functionality!"
+    title="Explainable's Blueprint: Fun Meets Functionality!"
     items={[
       {
-        title: 'Built on top of Astro 4.0',
+        title: 'Built on',
         description:
           'Benefiting from the performance and developer-friendly features of this modern static site generator.',
       },
@@ -137,11 +147,11 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>
+  </Content> -->
 
   <!-- Content Widget **************** -->
 
-  <Content
+  <!-- <Content
     isAfterContent
     items={[
       {
@@ -174,11 +184,11 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>
+  </Content> -->
 
   <!-- Content Widget **************** -->
 
-  <Content
+  <!-- <Content
     isReversed
     isAfterContent
     items={[
@@ -195,7 +205,7 @@ const metadata = {
       {
         title: 'Time and resource efficiency',
         description:
-          'Skip the time-consuming process of building a website from scratch and launch your online presence sooner with AstroWind.',
+          'Skip the time-consuming process of building a website from scratch and launch your online presence sooner with Explainable.',
       },
       {
         title: 'Community support',
@@ -204,7 +214,7 @@ const metadata = {
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1611462985358-60d3498e0364?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      alt: 'Astronauts Image',
+      alt: 'Explainable Image',
     }}
   >
     <Fragment slot="content">Designed to foster growth and success.</Fragment>
@@ -212,11 +222,11 @@ const metadata = {
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
     </Fragment>
-  </Content>
+  </Content> -->
 
   <!-- Steps Widget ****************** -->
 
-  <Steps
+  <!-- <Steps
     title="Get your dream website up and running in no time with AstroWind."
     items={[
       {
@@ -246,63 +256,62 @@ const metadata = {
       src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
       alt: 'Steps image',
     }}
-  />
+  /> -->
 
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    tagline="Components"
+    title="Popular RoadMaps"
+    subtitle="Explore Guided Roadmaps to your Data Journey"
+    tagline="RoadMaps"
     items={[
       {
-        title: 'Headers',
-        description: "Ever tried driving without GPS? Boom! That's why websites need headers for direction.",
+        title: "Machine Learning",
+        description: "Guided roadmap and curated resources to learn ML </br> </br><a class='btn' href='#' style='color:black'></Layout> <strong>ML Roadmap </strong></a>",
         icon: 'flat-color-icons:template',
       },
       {
-        title: 'Heros',
-        description:
-          "Picture a superhero landing – epic, right? That's the job of a Hero section, making grand entrances!",
+        title: 'Deep Learning',
+        description: "Guided roadmap and curated resources to learn ML </br> </br><a class='btn' href='#' style='color:black'></Layout> <strong> DL Roadmap </strong></a>",
         icon: 'flat-color-icons:gallery',
       },
       {
-        title: 'Features',
+        title: 'Python',
         description:
-          'Where websites strut their stuff and show off superpowers. No holding back on the bragging rights here!',
+          "<a class='btn' href='#' style='color:black'></Layout> <strong>Machine Learning </strong></a>",
         icon: 'flat-color-icons:approval',
       },
       {
-        title: 'Content',
+        title: 'Statistics',
         description:
-          "Dive into the meat and potatoes of a site; without it, you'd just be window shopping. Content is king.",
+          "<a class='btn' href='#' style='color:black'></Layout> <strong>Machine Learning </strong></a>",
         icon: 'flat-color-icons:document',
       },
       {
-        title: 'Call-to-Action',
+        title: 'Probability',
         description:
-          'That enthusiastic friend who\'s always urging, "Do it! Do it!"? Yeah, that\'s this button nudging you towards adventure.',
+          "<a class='btn' href='#' style='color:black'></Layout> <strong>Machine Learning </strong></a>",
         icon: 'flat-color-icons:advertising',
       },
       {
-        title: 'Pricing',
-        description: 'Behold the dessert menu of the website world. Tempting choices await, can you resist?',
+        title: 'Data Science',
+        description: "<a class='btn' href='#' style='color:black'></Layout> <strong>Machine Learning </strong></a>",
         icon: 'flat-color-icons:currency-exchange',
       },
       {
-        title: 'Testimonial',
-        description: 'Step into the gossip corner! Here, other visitors spill the beans and share the juicy details.',
+        title: 'AWS',
+        description: "<a class='btn' href='#' style='color:black'></Layout> <strong>Machine Learning </strong></a>",
         icon: 'flat-color-icons:voice-presentation',
       },
       {
-        title: 'Contact',
+        title: 'Azure',
         description:
-          'Like a digital mailbox, but faster! Drop a line, ask a question, or send a virtual high-five. Ding! Message in.',
+          "<a class='btn' href='#' style='color:black'></Layout> <strong>Machine Learning </strong></a>",
         icon: 'flat-color-icons:business-contact',
       },
       {
-        title: 'Footers',
-        description: "The footer's like the credits of a movie but sprinkled with easter eggs. Time to hunt!",
+        title: 'Architectures',
+        description: "<a class='btn' href='#' style='color:black'></Layout> <strong>Machine Learning </strong></a>",
         icon: 'flat-color-icons:database',
       },
     ]}
@@ -326,64 +335,66 @@ const metadata = {
 
   <FAQs
     title="Frequently Asked Questions"
-    subtitle="Dive into the following questions to gain insights into the powerful features that AstroWind offers and how it can elevate your web development journey."
+    subtitle=""
     tagline="FAQs"
     classes={{ container: 'max-w-6xl' }}
     items={[
       {
-        title: 'Why AstroWind?',
+        title: 'Why Explainable Academy?',
         description:
-          "Michael Knight a young loner on a crusade to champion the cause of the innocent. The helpless. The powerless in a world of criminals who operate above the law. Here he comes Here comes Speed Racer. He's a demon on wheels.",
+          "Beginer friendly tutorials to advance concepts, explained in easier way",
       },
       {
-        title: 'What do I need to start?',
+        title: 'Who is this course for?',
         description:
-          'Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds. Many say exploration is part of our destiny, but it’s actually our duty to future generations.',
+          'Graduates, students, teachers and practically anyone wanting to learn about cutting edge technology.',
       },
       {
-        title: 'How to install the Astro + Tailwind CSS template?',
+        title: 'Where to start?',
         description:
-          "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.",
+          "Start with our <a href='#'> <strong>Foundational Concepts Section</strong></a>. If you are looking for any specific topic, search the topic you site serach available at the top",
       },
       {
-        title: "What's something that you don't understand?",
+        title: "I'm not a programmer, can I still learn about ML?",
         description:
-          "A flower in my garden, a mystery in my panties. Heart attack never stopped old Big Bear. I didn't even know we were calling him Big Bear.",
+          "Absolutely! There are numerous resources available for beginners, from interactive tutorials and visual explanations to beginner-friendly coding platforms.",
       },
       {
-        title: 'What is something that you would like to try again?',
+        title: 'How to contact?',
         description:
-          "A business big enough that it could be listed on the NASDAQ goes belly up. Disappears! It ceases to exist without me. No, you clearly don't know who you're talking to, so let me clue you in.",
+          "Visit our Contact us Page to learn more.",
       },
       {
-        title: 'If you could only ask one question to each person you meet, what would that question be?',
+        title: 'Subscribe to our Newsletter?',
         description:
-          "This is not about revenge. This is about justice. A lot of things can change in twelve years, Admiral. Well, that's certainly good to know. About four years. I got tired of hearing how young I looked.",
+          "Visit our Newsletter Page to learn more.",
       },
     ]}
   />
 
   <!-- Stats Widget ****************** -->
 
-  <Stats
+  <!-- <Stats
     stats={[
       { title: 'Downloads', amount: '132K' },
       { title: 'Stars', amount: '24.8K' },
       { title: 'Forks', amount: '10.3K' },
       { title: 'Users', amount: '48.4K' },
     ]}
-  />
+  /> -->
 
   <!-- CallToAction Widget *********** -->
 
-  <CallToAction
+
+
+  <!-- <CallToAction
     actions={[
       {
         variant: 'primary',
-        text: 'Get template',
-        href: 'https://github.com/onwidget/astrowind',
-        target: '_blank',
-        icon: 'tabler:download',
+        text: 'Contact Us',
+        href: '#',
+        target: '_blank'
+        // icon: 'tabler:download',
       },
     ]}
   >
@@ -395,5 +406,8 @@ const metadata = {
       Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
       waste more time! :P
     </Fragment>
-  </CallToAction>
+  </CallToAction> -->
+
+
+
 </Layout>
